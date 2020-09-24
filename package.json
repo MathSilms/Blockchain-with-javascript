@@ -1,0 +1,8 @@
+{
+  "name": "-blockchain-with-javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MathSilms/Blockchain-with-javascript.git",
+  "author": "Matheus Oliveira <62664418+MathSilms@users.noreply.github.com>",
+  "license": "MIT"
+}
