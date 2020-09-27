@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/MathSilms/Blockchain-with-javascript.git",
   "author": "Matheus Oliveira <62664418+MathSilms@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
 }
