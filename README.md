@@ -60,6 +60,14 @@ O true é o retorno da validação do bloco como positivo, indicado que a opera�
 
 após esse evento, foi simulado um ataque malicioso por algum indivíduo. Depois do ataque ocorrido o bloco é verificado de novo, só que desta vez, como foi violado, a operação vai retornar false e o bloco não vai ser validado na rede e ganhar seu registro.
 
+deixei um if, com as duas condições( com ataque e sem ataque), caso queira testar. Se quiser remover o ataque, simplesmente remova a linha:
+
+```sh
+blockchain.blocks[1].data.amount = 30000
+```
+
+alterar o amount de 30000 para 4 também vai obter o mesmo resultado.
+
 ![](./return.png) 
 
 qualquer duvida ou sugestão:

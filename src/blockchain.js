@@ -6,11 +6,11 @@ class Blockchain {
         this.index = 1
         this.difficulty = difficulty
     }
-
+    //pega o bloco anterior ao atual.
     getLastBlock() {
         return this.blocks[this.blocks.length - 1]
     }
-
+    //adiciona um novo bloco na rede
     addBlock(data) {
         const index = this.index
         const difficulty = this.difficulty
@@ -21,7 +21,7 @@ class Blockchain {
         this.index++
         this.blocks.push(block)
     }
-
+    // Função usada para validar o bloco
     isValid() {
         for (let i = 1; i < this.blocks.length; i++) {
             const currentBlock = this.blocks[i]
