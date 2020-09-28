@@ -54,13 +54,13 @@ npm dev
 yarn dev
 ```
 
-no estado atual, aparecerá no seu terminal dois consoles.logs. Um true e um false
+no estado atual, aparecerá no seu terminal dois console.log(). Um true e um false
 
-![](./objeto.png) 
+O true é o retorno da validação do bloco como positivo, indicado que a operação foi bem sucedida e não ouve problemas.
 
-obs.: Deixei um console log comentado no index, caso queira vizualizar um exemplo parecido no seu terminal.
+após esse evento, foi simulado um ataque malicioso por algum indivíduo. Depois do ataque ocorrido o bloco é verificado de novo, só que desta vez, como foi violado, a operação vai retornar false e o bloco não vai ser validado na rede e ganhar seu registro.
 
-com esses dados recebidos, existem infinitas possibilidades de coisas que podemos fazer.
+![](./return.png) 
 
 qualquer duvida ou sugestão:
 
