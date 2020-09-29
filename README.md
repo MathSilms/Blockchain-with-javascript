@@ -1,7 +1,7 @@
 # Blockchain-with-javascript
 > Implementação do conceito de blockchain com javascript
              
-![width:150px](blockchain.jpg)                                     
+![width:200px](block.png)                                     
 
 ## O que é blockchain ? 
 
