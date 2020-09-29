@@ -1,11 +1,11 @@
 # Blockchain-with-javascript
 > Implementação do conceito de blockchain com javascript
              
-![width:200px](block.png)                                     
+![width:200px](blockchain.png)                                     
 
 ## O que é blockchain ? 
 
-blockchain é um sistema que permite rastrear o envio e recebimento de alguns tipos de informação pela internet. São pedaços de código gerados online que carregam informações, semelhante a blocos. Cada bloco é formado por si, e por um pedaço do anterior. Dessa forma permanecem conectados. Por isso o nome blockchain( corrente de blocos ).
+blockchain é um sistema que permite rastrear, o enviar e receber alguns tipos de dados pela internet. São pedaços de código gerados online que carregam informações, semelhante a blocos. Cada bloco é formado por si, e pelo anterior. Dessa forma permanecem conectados. Por isso o nome blockchain( corrente de blocos ).
 
 ## Segurança
 
